@@ -1,11 +1,12 @@
 .navbar-wrapper {
   width: 80vw;
-  margin-top: 10vh;
+  margin-top: 5vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   .name {
     font-weight: 600;
+    width: 10vw;
   }
   .links-wrapper {
     button {

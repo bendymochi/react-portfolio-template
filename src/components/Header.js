@@ -8,46 +8,48 @@ const Header = () => {
       <div className="container">
         <div className="header-wrapper">
           <Fade bottom>
-            <h2>
-              Hi, I'm {data.name}{" "}
+            <h1>
+              Hello there!
               <span role="img" aria-label="Emoji">
                 👋
               </span>
-            </h2>
+            </h1>
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <h1>
-                {data.headerTagline[0]
-                  ? data.headerTagline[0]
-                  : "Building digital"}
+                I'm {data.name}{" "}
               </h1>
-              <h1>
+              {/* <h1>
                 {" "}
                 {data.headerTagline[1]
                   ? data.headerTagline[1]
                   : "products, brands"}
               </h1>
               <h1>
-                {" "}
-                {data.headerTagline[2]
-                  ? data.headerTagline[2]
-                  : "and experience"}
-              </h1>
+                */}
             </div>
           </Fade>
           <Fade bottom>
             <p>{data.headerParagraph}</p>
           </Fade>
           <Fade bottom>
-            <a
+            {/* <a
               href={`mailto:${
-                data.contactEmail ? data.contactEmail : "hello@chetanverma.com"
+                data.contactEmail ? data.contactEmail : "meiyen-x@hotmail.com"
               }`}
               className="primary-btn"
             >
-              CONNECT WITH ME
+              DOWNLOAD RESUME
+            </a> */}
+            <a
+              href="https://drive.google.com/file/d/1edt5YsDl7tIMvkd_AFY-PmyJizktbuLb/view?usp=sharing" 
+              className="primary-btn"
+            >
+              VIEW RESUME
             </a>
+
+
           </Fade>
         </div>
       </div>

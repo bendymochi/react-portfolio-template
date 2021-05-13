@@ -7,17 +7,17 @@ import Header from "../components/Header"
 import Work from "../components/Work"
 import About from "../components/about"
 import Skills from "../components/skills"
-import Promotion from "../components/Promotion"
+import Experience from "../components/Experience"
 import Footer from "../components/Footer"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Portfolio Template" />
+    <SEO title="Mei Yen's Portfolio" />
     <Header></Header>
     <Work></Work>
     <About></About>
     <Skills></Skills>
-    <Promotion></Promotion>
+    <Experience></Experience>
     <Footer></Footer>
   </Layout>
 )
