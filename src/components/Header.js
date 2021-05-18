@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="section" id="home">
       <div className="container">
-        <div className="header-wrapper">
+        <div className="header-wrapper" id="image">
           <Fade bottom>
             <h1>
               Hello there!
@@ -18,7 +18,7 @@ const Header = () => {
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <h1>
-                I'm {data.name}{" "}
+                {"<"} {data.name} {"/>"} {" "}
               </h1>
               {/* <h1>
                 {" "}
@@ -31,7 +31,7 @@ const Header = () => {
             </div>
           </Fade>
           <Fade bottom>
-            <p>{data.headerParagraph}</p>
+            <p className="font-header">{data.headerParagraph}</p>
           </Fade>
           <Fade bottom>
             {/* <a
@@ -45,6 +45,7 @@ const Header = () => {
             <a
               href="https://drive.google.com/file/d/1edt5YsDl7tIMvkd_AFY-PmyJizktbuLb/view?usp=sharing" 
               className="primary-btn"
+              target="_blank"
             >
               VIEW RESUME
             </a>

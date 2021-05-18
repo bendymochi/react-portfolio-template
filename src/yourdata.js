@@ -41,7 +41,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "Computer Science undergraduate at the National University of Singapore.",
+    "A creative front-end developer with a strong focus on designing and building user interfaces.",
 
   //Contact Email
   contactEmail: "meiyen-x@hotmail.com",
@@ -53,7 +53,7 @@ export default {
     {
       title: "Crowdtask", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Front-end UI/UX Web Developing", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       crowdtask,
@@ -61,9 +61,9 @@ export default {
       url: "http://chetanverma.com/",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "SafeSpace", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "UI Design, Blueprint Scripter", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       safespace,
@@ -71,9 +71,9 @@ export default {
       url: "https://isteps.comp.nus.edu.sg/event/cs4240/module/AY2019-20+Semester_2+Task_1/project/7",
     },
     {
-      title: "Project Three", //Project Title - Add Your Project Title Here
+      title: "PetSaver", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "UI/UX Design", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       petsaver,
@@ -83,16 +83,16 @@ export default {
     {
       title: "Solo", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "UI Design, Blueprint Scripter", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: solo,
       //Project URL - Add Your Project Url Here
       url: "https://vimeo.com/326231416",
     },
     {
-      title: "Razer", //Project Title - Add Your Project Title Here
+      title: "Razer Project Linda", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Compositor & Rotoscoping", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       razer,
@@ -102,7 +102,7 @@ export default {
     {
       title: "Mobile Strike Firefight", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Compositing, Render Wrangler", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       mobile,
@@ -112,7 +112,7 @@ export default {
     {
       title: "Jungle Beats", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Fluid Simulation, Compositing, Lighting, Set Dresser", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       jb,
@@ -122,7 +122,7 @@ export default {
     {
       title: "The Journey: Our Homeland", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "VFX, Rotoscoping & Compositing", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       home,
@@ -132,7 +132,7 @@ export default {
     {
       title: "Matte Painting", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Digital Photo Manipulation", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       mp,
@@ -157,7 +157,7 @@ export default {
   aboutParaOne:
     "I’m a web developer with a background in art. I design and code beautifully simple things, and I love what I do.",
   aboutParaTwo:
-    "In my free time, I pole dance and teach!",
+    "Before designing and building website, I was creating VFX, Compositing, and Matte Painting for TV shows, commericals and animations.",
   aboutParaThree:
     "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   aboutImage: profile,
@@ -196,7 +196,7 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Interested to find out more? Contact me here!",
+  contactSubHeading: "Let's make something great!",
   social: [
     // Add Or Remove The Link Accordingly
     {
