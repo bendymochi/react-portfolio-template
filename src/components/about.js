@@ -4,12 +4,13 @@ import data from "../yourdata"
 
 const About = () => {
   return (
-    <div className="secion" id="about">
+    <div className="section" id="about">
       <div className="container">
         <div className="about-section">
           <div className="content">
+          <div className="div-fix">
             <Fade bottom cascade>
-              <h1>About Me</h1>
+              <h1 style={{lineHeight: "normal"}}>About Me<span className="gray-font">iYen</span></h1>
             </Fade>
             <p>
               {data.aboutParaOne}
@@ -19,7 +20,11 @@ const About = () => {
               <br></br>
               <br></br>
               {data.aboutParaThree}
+              <br></br>
+              <br></br>
+              {data.aboutParaFour}
             </p>
+            </div>
           </div>
           <div className="image-wrapper">
             <img src={data.aboutImage} alt="about"></img>

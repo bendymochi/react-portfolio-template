@@ -47,7 +47,7 @@ const Header = () => {
               className="primary-btn"
               target="_blank"
             >
-              VIEW RESUME
+              VIEW MY CV
             </a>
 
 

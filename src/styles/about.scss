@@ -2,6 +2,7 @@
   width: 80vw;
   margin-top: 10vh;
   display: flex;
+  font-size: 1.2rem;
   justify-content: space-between;
   @include media(">=phone", "<lgphone") {
     flex-direction: column-reverse;
@@ -13,8 +14,19 @@
     flex-direction: column-reverse;
     align-items: center;
   }
+
+  .gray-font {
+    color: rgba(0,0,0,0.1);
+  }
+
+  .div-fix {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
   .content {
     width: 50%;
+    line-height: 1.6;
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }

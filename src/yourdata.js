@@ -3,10 +3,12 @@ import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
 import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
+
 import designIcon from "./images/design.svg"
 import codeIcon from "./images/code.svg"
 import flickrIcon from "./images/flickr.svg"
 import linkedinIcon from "./images/linkedin.svg"
+import movieIcon from "./images/movie.png"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -155,11 +157,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "I’m a web developer with a background in art. I design and code beautifully simple things, and I love what I do.",
+    "I'm highly passionate and motivated in continuously improving my skills and to grow as a front-end developer with a background in art and film.",
   aboutParaTwo:
-    "Before designing and building website, I was creating VFX, Compositing, and Matte Painting for TV shows, commericals and animations.",
+    "I like to create smart user interface and useful interaction, developing enjoyable web experiences and web applications. A hard worker with a desire to give my all!",
   aboutParaThree:
-    "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "Before designing and building website, I was creating VFX, Compositing, and Matte Painting for TV shows, commericals and animations.",
+  aboutParaFour:
+    "I'm fan of (dark) fantasy and psychological thriller TV series, movies and animes. (I do watch LOTR, GoT & Doctor Who!). When not online, I do Pole Dancing and Aerial Silk.",
   aboutImage: profile,
   //   End About Section ---------------------
 
@@ -170,18 +174,34 @@ export default {
   skills: [
     {
       img: designIcon,
-      title: "Artist/Designer",
+      title: "Designer",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I create smart user interface and user-centered design.",
+      main: "Things I do:",
+      language: "Wireframing, Mock ups, User Study/Interviews, User Testing",
+      framework: "Design Tools:",
+      frameworkDetails: "Figma, Photoshop, Adobe XD, Balsamiq Mockups, Pen & Paper",
     },
     {
       img: codeIcon,
-      title: "Engineer",
-      header: "Development",
-      details: "Javascript",
+      title: "Front-end Developer",
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "I enjoy bringing ideas to life in the web browser.",
+      main: "Frontend framework/libraries:",
+      framework: "Languages:",
+      frameworkDetails: "JavaScript, Java, C, Python, C++, C#",
+      language: 
+        "React, Nodejs, Unity, Git, Github, Material UI, tailwindcss, HTML, CSS, Bootstrap",
     },
+    {
+      img: movieIcon,
+      title: "VFX Artist",
+      para: "I enjoy creating effects and compositing.",
+      main: "VFX:",
+      language: "Houdini, Autodesk Maya, VRay, Unreal Engine 4",
+      framework: "Video Editing & Compositing:",
+      frameworkDetails: "Nuke, After Effects, Premiere Pro, Photoshop",
+    }
   ],
 
   // End Skills Section --------------------------
@@ -189,9 +209,8 @@ export default {
   //   Experience Section --------------------------
 
   promotionHeading: "Experience",
-  promotionPara:
-    "Work experience, internships.",
-  title: "National University of Singapore",
+  promotionPara:"Work Experience",
+  education: "Academic Qualifications",
   // End Promotion Section -----------------
 
   //   Contact Section --------------
