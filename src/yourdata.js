@@ -13,7 +13,7 @@ import profile from "./images/profile.jpg"
 import crowdtask from "./images/crowdtask.png"
 import safespace from "./images/safespace.png"
 import petsaver from "./images/pet.png"
-import solo from "./images/solo1.png"
+import solo from "./images/poster.jpg"
 import razer from "./images/razer1.jpg"
 import mobile from "./images/mobilestrike.jpg"
 import jb from "./images/jb.jpg"
@@ -45,83 +45,91 @@ export default {
   // Work Section ------------------------
   projects: [
     {
-      title: "Crowdtask", //Project Title - Add Your Project Title Here
+      title: "CrowdTaskSG", //Project Title - Add Your Project Title Here
       para:
-        "Front-end UI/UX Web Developing", // Add Your Service Type Here
+        "Crowdsourcing web platform for Citizens", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       crowdtask,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "/crowdtasksg",
+      tag: "programming",
     },
     {
       title: "SafeSpace", //Project Title - Add Your Project Title Here
       para:
-        "UI Design, Blueprint Scripter", // Add Your Service Type Here
+        "AR/VR Design Student Project, 2nd Place at STePS 2020", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       safespace,
       //Project URL - Add Your Project Url Here
-      url: "https://isteps.comp.nus.edu.sg/event/cs4240/module/AY2019-20+Semester_2+Task_1/project/7",
+      url: "/safespace",
+      tag: "programming",
     },
     {
       title: "PetSaver", //Project Title - Add Your Project Title Here
       para:
-        "UI/UX Design", // Add Your Service Type Here
+        "Personal Savings App for Interaction Design Student Project", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       petsaver,
       //Project URL - Add Your Project Url Here
-      url: "https://www.youtube.com/watch?v=U7QycrOnMk4",
+      url: "/petsaver",
+      tag: "Design",
     },
     {
-      title: "Solo", //Project Title - Add Your Project Title Here
+      title: "SOLO", //Project Title - Add Your Project Title Here
       para:
-        "UI Design, Blueprint Scripter", // Add Your Service Type Here
+        "VR FPS Game for Orbital Summer Project 2018 – Apollo 11", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc: solo,
       //Project URL - Add Your Project Url Here
-      url: "https://vimeo.com/326231416",
+      url: "/solo",
+      tag: "programming",
     },
     {
       title: "Razer Project Linda", //Project Title - Add Your Project Title Here
       para:
-        "Compositor & Rotoscoping", // Add Your Service Type Here
+        "Razer Project Linda Advertisement", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       razer,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
+      url: "/razer",
+      tag: "VFX",
     },
     {
       title: "Mobile Strike Firefight", //Project Title - Add Your Project Title Here
       para:
-        "Compositing, Render Wrangler", // Add Your Service Type Here
+        "Cinematic for Mobile Strike \"Firefight\" mobile game", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       mobile,
       //Project URL - Add Your Project Url Here
-      url: "https://www.youtube.com/watch?v=327ogEyV3Lo",
+      url: "/mobilestrike",
+      tag: "VFX",
     },
     {
       title: "Jungle Beats", //Project Title - Add Your Project Title Here
       para:
-        "Fluid Simulation, Compositing, Lighting, Set Dresser", // Add Your Service Type Here
+        "CGI TV Animated series", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       jb,
       //Project URL - Add Your Project Url Here
-      url: "https://www.youtube.com/watch?v=4PS0LT_Uutk",
+      url: "/junglebeats",
+      tag: "VFX",
     },
     {
       title: "The Journey: Our Homeland", //Project Title - Add Your Project Title Here
       para:
-        "VFX, Rotoscoping & Compositing", // Add Your Service Type Here
+        "Finale of the trilogy \"The Journey\" TV Drama ", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
       home,
       //Project URL - Add Your Project Url Here
-      url: "https://vimeo.com/207045390",
+      url: "/homeland",
+      tag: "VFX",
     },
     {
       title: "Matte Painting", //Project Title - Add Your Project Title Here
@@ -131,7 +139,8 @@ export default {
       imageSrc:
       mp,
       //Project URL - Add Your Project Url Here
-      url: "https://vimeo.com/131540840",
+      url: "/mattept",
+      tag: "VFX",
     },
 
     /*
@@ -168,9 +177,9 @@ export default {
       img: designIcon,
       title: "Designer",
       para:
-        "I create smart user interface and user-centered design.",
+        "I create smart, simple user interface and user-centered design.",
       main: "Things I do:",
-      language: "Wireframing, Mock ups, User Study/Interviews, User Testing",
+      language: "Wireframing, Mock ups, Prototyping, User Study/Interviews, User Testing",
       framework: "Design Tools:",
       frameworkDetails: "Figma, Photoshop, Adobe XD, Balsamiq Mockups, Pen & Paper",
     },
@@ -178,21 +187,25 @@ export default {
       img: codeIcon,
       title: "Front-end Developer",
       para:
-        "I enjoy bringing ideas to life in the web browser.",
+        "I like to code and ensure that the product meets technical requirements while providing a user friendly experience.",
       main: "Frontend framework/libraries:",
       framework: "Languages:",
       frameworkDetails: "JavaScript, Java, C, Python, C++, C#",
       language: 
-        "React, Nodejs, Unity, Git, Github, Material UI, tailwindcss, HTML, CSS, Bootstrap",
-    },
+        "React, Nodejs, Unity, Material UI, tailwindcss, HTML, CSS",
+        tools: "Dev Tools:",
+        descr: "Bitbucket, Bootstrap, Github, Terminal, Git",
+      },
     {
       img: movieIcon,
       title: "VFX Artist",
-      para: "I enjoy creating effects and compositing.",
-      main: "VFX:",
-      language: "Houdini, Autodesk Maya, VRay, Unreal Engine 4",
-      framework: "Video Editing & Compositing:",
-      frameworkDetails: "Nuke, After Effects, Premiere Pro, Photoshop",
+      para: "I enjoy creating effects and bringing everything together to complete a beautiful shot.",
+      main: "Things I do:",
+      language: "Digital Matte Painting, Compositing, VFX, Fluid and Particle Simulation, AR/VR, Video Editor",
+      framework: "VFX:",
+      frameworkDetails: "Houdini, Autodesk Maya, VRay, Unreal Engine 4",
+      tools: "Video Editing & Compositing:",
+      descr: "Nuke, After Effects, Premiere Pro, Photoshop",
     }
   ],
 

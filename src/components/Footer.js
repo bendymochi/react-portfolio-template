@@ -27,8 +27,11 @@ const Footer = () => {
             ))}
           </div>
           <span>
-            {/* Made With <icon>❤</icon> by{" "}
-            <a href="https://www.chetanverma.com/">Chetan Verma</a> */}
+          &copy; 2021 Mei Yen
+          </span>
+          <span style={{fontSize: "0.8rem"}}>
+            Adapted from {" "}
+            <a href="https://www.chetanverma.com/">Chetan Verma</a>
           </span>
         </div>
       </div>

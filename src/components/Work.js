@@ -6,7 +6,7 @@ import data from "../yourdata"
 
 const Work = () => {
   return (
-    <div className="section" id="work">
+    <div className="section" id="projects">
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
@@ -22,6 +22,7 @@ const Work = () => {
                   paragraph={project.para}
                   imgUrl={project.imageSrc}
                   projectLink={project.url}
+                  tag = {project.tag}
                 ></Card>
               ))}
             </Fade>

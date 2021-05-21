@@ -14,6 +14,7 @@ const Skills = () => {
                 <p>{skill.para}</p>
                 <p><b>{skill.main}</b> {skill.language}</p>
                 <p><b>{skill.framework}</b> {skill.frameworkDetails}</p>
+                <p><b>{skill.tools}</b> {skill.descr}</p>
               </div>
             ))}
           </div>

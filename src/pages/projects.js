@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from 'gatsby'
 
-import Layout from "../components/layout"
+import Layout from "../components/layoutProj"
 import SEO from "../components/seo"
 // Components
 import Header from "../components/Header"
@@ -18,10 +18,9 @@ export default function Projects({ data }) {
   return (
   <Layout>
     <SEO title="Mei Yen's Portfolio" />
-    <h1>Hello</h1>
     <div>
       {projects.map(project => (
-        <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
+        <Link to={"/" + project.frontmatter.slug} key={project.id}>
       <div>{project.frontmatter.title}</div>
       </Link>
       ))}

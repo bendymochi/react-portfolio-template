@@ -1,6 +1,7 @@
 import React from "react"
+import { Link } from 'gatsby'
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({ heading, paragraph, imgUrl, projectLink, tag }) => {
   return (
     <div
       className="card"
@@ -11,16 +12,14 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
           ")",
       }}
     >
+      <div className="dev-button">{tag}</div>
       <div className="content">
-      <a
-          href={projectLink ? projectLink : "#"}
-          target="_blank"
-          rel="noopener noreferrer"
+      <Link to={projectLink ? projectLink : "#"}
           className="btn"
         >
         <h1 className="header">{heading}</h1>
         <p className="text">{paragraph}</p>
-        </a>
+        </Link>
       </div>
     </div>
   )

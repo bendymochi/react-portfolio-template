@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className="section" id="home">
       <div className="container">
-        <div className="header-wrapper" id="image">
+        <div className="header-wrapper" id="bg">
           <Fade bottom>
             <h1>
               Hello there!
@@ -29,6 +29,7 @@ const Header = () => {
               <h1>
                 */}
             </div>
+
           </Fade>
           <Fade bottom>
             <p className="font-header">{data.headerParagraph}</p>
@@ -49,11 +50,9 @@ const Header = () => {
             >
               VIEW MY CV
             </a>
-
-
           </Fade>
+          </div>
         </div>
-      </div>
     </div>
   )
 }
