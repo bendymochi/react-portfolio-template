@@ -32,7 +32,7 @@ export default function Projects({ data }) {
 
 //export page query
 export const query = graphql`
-query ProjectsPage {
+query Projects {
   allMarkdownRemark {
     nodes {
       frontmatter {
