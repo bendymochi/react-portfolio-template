@@ -1,7 +1,6 @@
 module.exports = {
-  pathPrefix: "/",
   siteMetadata: {
-    title: `Artist & Engineer`,
+    title: `Artist & Developer`,
     description: `Mei Yen's portfolio`,
     author: `Mei Yen`,
     siteUrl: `https://www.meiyentan.com`,
@@ -26,14 +25,13 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 590,
+              maxWidth: 1200,
             },
           },
         ],
       },
     },
     `gatsby-plugin-react-helmet`,
-    'gatsby-transformer-remark',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

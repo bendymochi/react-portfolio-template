@@ -11,7 +11,7 @@ This was my first time creating both a VR game and using Unreal Engine 4. Throug
 
 We built a survival zombie game where the goal is to stay alive as long as possible while being targeted by zombies and the main boss during our summer break. Our goal is to make it as immersive as possible and experience a FPS using a VR mounted headset and xbox controller. We achieved this by using different lighting techniques, shadows, post processing image effects and programmed triggers at location.
 
-![Hello](./images/solo1.png)
+![Solo](./solo1.png)
 
 My contributions:
 
