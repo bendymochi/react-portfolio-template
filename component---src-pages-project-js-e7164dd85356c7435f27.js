@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{KNYz:function(e,n,t){"use strict";t.r(n);var l=t("q1tI"),a=t.n(l),r=t("Bl7J"),o=t("vrFN"),u=(t("rY4l"),t("I3RS"),t("WL7D"),t("nOYz"),t("S++t"),t("JwsL"));n.default=function(){return a.a.createElement(r.a,null,a.a.createElement(o.a,{title:"Mei Yen's Portfolio"}),a.a.createElement("h1",null,"Hello guise!"),a.a.createElement(u.a,null))}}}]);
+//# sourceMappingURL=component---src-pages-project-js-e7164dd85356c7435f27.js.map
