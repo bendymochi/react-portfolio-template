@@ -44,9 +44,10 @@ const Header = () => {
               DOWNLOAD RESUME
             </a> */}
             <a
-              href="https://drive.google.com/file/d/1edt5YsDl7tIMvkd_AFY-PmyJizktbuLb/view?usp=sharing" 
+              href="https://drive.google.com/file/d/1Ok5VLYCIhQUrDQzjiSa3SbXol7VRB8CE/view?usp=sharing" 
               className="primary-btn"
               target="_blank"
+              rel="noreferrer"
             >
               VIEW MY CV
             </a>

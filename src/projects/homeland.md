@@ -2,10 +2,10 @@
 title: "The Journey: Our Homeland"
 slug: homeland
 date: "Jan 2018"
-img: "./homeland.jpg"
 role: VFX, Rotoscoping & Compositing
 ---
-![](./home.jpg)
+
+![](home.jpg)
 
 My 6-months Final Year Project was working on The Journey: Our Homeland, which is the third and final season of Mediacorp Channel 8's nation-building trilogy The Journey. 
 

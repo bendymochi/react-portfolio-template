@@ -10,7 +10,7 @@ import githubIcon from "./images/github.svg"
 
 // Images
 import profile from "./images/profile.jpg"
-import crowdtask from "./images/crowdtask.png"
+import fissure from "./images/fis.jpg"
 import safespace from "./images/safespace.png"
 import petsaver from "./images/pet.png"
 import solo from "./images/poster.jpg"
@@ -44,17 +44,6 @@ export default {
 
   // Work Section ------------------------
   projects: [
-    {
-      title: "CrowdTaskSG", //Project Title - Add Your Project Title Here
-      para:
-        "Crowdsourcing web platform for Citizens", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-      crowdtask,
-      //Project URL - Add Your Project Url Here
-      url: "/crowdtasksg",
-      tag: "programming",
-    },
     {
       title: "SafeSpace", //Project Title - Add Your Project Title Here
       para:
@@ -142,7 +131,17 @@ export default {
       url: "/mattept",
       tag: "VFX",
     },
-
+    {
+      title: "Fissure", //Project Title - Add Your Project Title Here
+      para:
+        "Nominated for Best Visual Effects (National Youth Film Awards 2015)", // Add Your Service Type Here
+      //Project Image - Add Your Project Image Here
+      imageSrc:
+      fissure,
+      //Project URL - Add Your Project Url Here
+      url: "/fissure",
+      tag: "VFX",
+    },
     /*
     If You Want To Add More Project just Copy and Paste This At The End
     ,{
@@ -232,7 +231,7 @@ export default {
     },
     {
       img: flickrIcon,
-      url: "https://www.flickr.com/photos/152541985@N04/sets/72157677573782614/",
+      url: "https://www.flickr.com/gp/152541985@N04/Y52418",
     },
   ],
 

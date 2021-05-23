@@ -4,7 +4,7 @@ slug: razer
 date: "Jan 2018"
 role: Compositing, Render Wrangler
 ---
-![](./linda.jpg)
+![Linda](./linda.jpg)
 
 I had the opportunity to work on Compositing and Rotoscoping for Project Linda, Razer's concept which merges the power of the Razer Phone with the comfort of a large screen and a physical keyboard. 
 
