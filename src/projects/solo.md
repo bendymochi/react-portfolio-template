@@ -5,7 +5,7 @@ date: Jan 2021
 role: VR Engineer, Video Editor
 ---
 
-<iframe src="https://player.vimeo.com/video/326231416" width="400" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/326231416" width="100%" height="225" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 This was my first time creating both a VR game and using Unreal Engine 4. Through this project, I was able to explore UE4's capabilities, from Blueprint Scripting to Lighting & Rendering and VR Optimization in UE4.
 

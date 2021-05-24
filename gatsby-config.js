@@ -1,9 +1,17 @@
+const activeEnv =
+  process.env.GATSBY_ACTIVE_ENV || process.env.NODE_ENV || "development"
+  console.log(`Using environment config: '${activeEnv}'`)
+  require("dotenv").config({
+    path: `.env.${activeEnv}`,
+  })
+  
 module.exports = {
   siteMetadata: {
     title: `Artist & Developer`,
     description: `Mei Yen's portfolio`,
     author: `Mei Yen`,
     siteUrl: `https://www.meiyentan.com`,
+    apiUrl: process.env.API_URL,
   },
   plugins: [
     {
@@ -14,6 +22,7 @@ module.exports = {
         },
       },
     },
+
     `gatsby-plugin-sharp`, 
     {
       resolve: `gatsby-transformer-remark`,

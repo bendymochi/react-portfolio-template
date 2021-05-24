@@ -7,7 +7,7 @@ role: Producer, Lighting Artist and Compositor
 ![](fis.jpg)
 <center>Nominated for Best Visual Effects (National Youth Film Awards 2015)</center>
 
-<iframe src="https://player.vimeo.com/video/131540840" width="400" height="255" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/131540840" width="100%" height="255" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 FISSURE is a 2nd Year Student Studio Project in collaboration with Interaction Design students, given the theme of "What does Visual Effects mean to you?".
 

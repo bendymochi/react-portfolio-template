@@ -13,11 +13,11 @@ I was in charge of the collapsing building shot which requires to have things br
 
 It was a great challenge as I was given a difficult scene, where I have to roughly model the layout of the room, and then make the ground collapse and also clean up the background plate and put everything together.
 
-<center><div style="text-align: center;"><iframe width="400" height="255" src="https://www.youtube.com/embed/aGQN9QBJ1Io?start=114" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></center>
+<center><div style="text-align: center;"><iframe width="100%" height="255" src="https://www.youtube.com/embed/aGQN9QBJ1Io?start=114" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div></center>
 
 ![](./homeland.jpg)
 
 I had the privilege to go on site in Penang, where the filming took place and observe. I did the set extension, where the debris are modelled in maya and then composited in Nuke.
 
-<center><div style="text-align: center;"><iframe src="https://player.vimeo.com/video/207045390" width="400" height="255" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div></center>
+<center><div style="text-align: center;"><iframe src="https://player.vimeo.com/video/207045390" width="100%" height="255" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div></center>
 

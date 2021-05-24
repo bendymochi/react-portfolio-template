@@ -11,6 +11,12 @@
   
   .font-header {
     font-size: 1.5rem;
+    @include media(">=phone", "<lgphone") {
+       font-size: 1rem;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 1rem;
+    }
   }
 
   h2 {
@@ -32,11 +38,11 @@
       text-align: center;
       line-height: 20px;
       @include media(">=phone", "<lgphone") {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 10px;
       }
       @include media(">=lgphone", "<tablet") {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         line-height: 10px;
       }
       @include media(">=tablet", "<desktop") {

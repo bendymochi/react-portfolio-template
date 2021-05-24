@@ -4,9 +4,17 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+
   h1 {
     font-size: 3rem;
     line-height: 20px;
+    @include media(">=phone", "<lgphone") {
+      font-size: 2.2rem;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 2.2rem;
+    }
   }
 
   .skills-grid {
@@ -35,6 +43,13 @@
       p {
         text-align: left;
         font-size: 18px;
+        @include media(">=phone", "<lgphone") {
+          font-size: 1rem;
+    
+        }
+        @include media(">=lgphone", "<tablet") {
+          font-size: 1rem;
+        }
       }
     }
   }

@@ -10,7 +10,7 @@ I had the opportunity to work on Compositing and Rotoscoping for Project Linda, 
 
 I was in charge of a couple of shots, to composite graphics that were created in house with the main footage. Also, I enhanced the shot by adding reflections to make it look more realistic and aesthetic.
 
-<center><iframe src="https://player.vimeo.com/video/252664844" width="400" height="255" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
+<center><iframe src="https://player.vimeo.com/video/252664844" width="100%" height="255" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
 
 In addition, I assisted in other shots by rotoscoping and matchmoving, providing tracking information and a clean plate for the main artist working on that shot to use.
 

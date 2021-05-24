@@ -5,7 +5,7 @@ date: "Aug 2016 – Jan 2017"
 role: Fluid Simulation, Compositing, Lighting, Set Dresser
 ---
 
-<center><iframe width="400" height="255" src="https://www.youtube.com/embed/4PS0LT_Uutk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center><iframe width="100%" height="255" src="https://www.youtube.com/embed/4PS0LT_Uutk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 Working on Jungle Beats has been an eye-opener, especially working in a large pipeline production. I was able to learn a range of skills, from set dressing to fluid simulation and compositing with the guidance from the lead.
 

@@ -5,7 +5,7 @@ date: "Mar – Apr 2017"
 role: Compositing, Render Wrangler
 ---
 
-<center><iframe width="400" height="255" src="https://www.youtube.com/embed/327ogEyV3Lo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center><iframe width="100%" height="255" src="https://www.youtube.com/embed/327ogEyV3Lo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 <center><i>Mobile Strike: Firefight promo</i></center>
 

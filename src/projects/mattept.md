@@ -11,7 +11,7 @@ I have always enjoy doing digital photo manipulation, especially transforming fr
 ![](bg.jpg)
 <center>Original background plate</center> 
 
-<center><iframe src="https://player.vimeo.com/video/200559010" width="400" height="255" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
+<center><iframe src="https://player.vimeo.com/video/200559010" width="100%" height="255" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></center>
 
 ![](./original.jpg)
 <center>Original background plate</center> 
@@ -25,4 +25,4 @@ I have always enjoy doing digital photo manipulation, especially transforming fr
 ![](./004.jpg)
 ![](./005.jpg)
 
-**All background images are not owned by me
+*All background images are not owned by me*

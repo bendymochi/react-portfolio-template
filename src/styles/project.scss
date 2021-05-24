@@ -20,10 +20,10 @@
     font-size: 3rem;
     line-height: 30px;
     @include media(">=phone", "<lgphone") {
-      font-size: 2rem;
+      font-size: 1rem;
     }
     @include media(">=lgphone", "<tablet") {
-      font-size: 2rem;
+      font-size: 1rem;
     }
   }
 
