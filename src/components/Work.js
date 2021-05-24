@@ -11,6 +11,7 @@ const Work = () => {
         <div className="work-wrapper">
           <Fade bottom>
             <h1>Projects</h1>
+            <p>Click on the project to view more!</p>
           </Fade>
 
           <div className="grid">

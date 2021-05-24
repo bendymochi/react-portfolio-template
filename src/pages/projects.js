@@ -7,7 +7,6 @@ import SEO from "../components/seo"
 import Footer from "../components/Footer"
 
 export default function Projects({ data }) {
-  console.log(data)
   const projects = data.allMarkdownRemark.nodes
 
   return (

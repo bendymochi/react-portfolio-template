@@ -8,17 +8,17 @@ const Header = () => {
       <div className="container">
         <div className="header-wrapper" id="bg">
           <Fade bottom>
-            <h1>
+            <h2>
               Hello there!
               <span role="img" aria-label="Emoji">
                 👋
               </span>
-            </h1>
+            </h2>
           </Fade>
           <Fade bottom cascade>
             <div className="heading-wrapper">
               <h1>
-                {"<"} {data.name} {"/>"} {" "}
+                I'm {data.name}. {" "}
               </h1>
               {/* <h1>
                 {" "}
@@ -32,7 +32,7 @@ const Header = () => {
 
           </Fade>
           <Fade bottom>
-            <p className="font-header">{data.headerParagraph}</p>
+            <p>{data.headerParagraph}</p>
           </Fade>
           <Fade bottom>
             {/* <a

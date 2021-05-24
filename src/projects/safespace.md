@@ -4,15 +4,15 @@ slug: safespace
 date: "2020"
 role: VR Engineer, Video Editor
 ---
+<img src="safespace01.png"/>
 
-![](./safespace01.png)
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/DXkq3lLcZkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <center><i>Safespace Presentation & Promo video</i></center>
 
 In collaboration with my CS4240 (Interaction Design for Augmented/Virtual Reality) team mates Arthur Lee, Darren Sim and Jaron Chan, we developed a VR Mental Health simulator and meditation guide that aims to bring a greater level of awareness and understanding of anxiety disorders through two main gameplay modes using Unity3D. 
 
-![](./safespace02.png)
+![](safespace02.png)
 **We got 2nd place in Interaction Design for Virtual and Augmented Reality out of 39 teams at the 16th eSTePS 2020.**
 
 We made use of the HTC Vive Pro Eye for its advanced eye-tracking technology which was used to navigate our user interface through gazing at the buttons.

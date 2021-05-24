@@ -29,4 +29,20 @@
       grid-template-columns: 1fr 1fr;
     }
   }
+  p {
+    text-align: center;
+    overflow: hidden;
+    @include media(">=phone", "<lgphone") {
+      font-size: 13px;
+      width: 100%;
+    }
+    @include media(">=lgphone", "<tablet") {
+      font-size: 13px;
+      width: 100%;
+    }
+    @include media(">=tablet", "<desktop") {
+      font-size: 15px;
+      width: 100%;
+    }
+  }
 }

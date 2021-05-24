@@ -8,16 +8,6 @@
   #bg {
     background-image: url(../images/011.jpg);
   }
-  
-  .font-header {
-    font-size: 1.5rem;
-    @include media(">=phone", "<lgphone") {
-       font-size: 1rem;
-    }
-    @include media(">=lgphone", "<tablet") {
-      font-size: 1rem;
-    }
-  }
 
   h2 {
     font-size: 1rem;
@@ -38,11 +28,11 @@
       text-align: center;
       line-height: 20px;
       @include media(">=phone", "<lgphone") {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         line-height: 10px;
       }
       @include media(">=lgphone", "<tablet") {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         line-height: 10px;
       }
       @include media(">=tablet", "<desktop") {
@@ -55,15 +45,15 @@
     text-align: center;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
-      font-size: 12px;
+      font-size: 13px;
       width: 100%;
     }
     @include media(">=lgphone", "<tablet") {
-      font-size: 12px;
+      font-size: 13px;
       width: 100%;
     }
     @include media(">=tablet", "<desktop") {
-      font-size: 14px;
+      font-size: 15px;
       width: 100%;
     }
   }

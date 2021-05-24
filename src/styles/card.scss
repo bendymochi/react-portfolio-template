@@ -24,16 +24,16 @@
     border-radius: 25px;
     background-color: rgb(252,52,104);
     color: white;
-    opacity: 1;
     position: absolute;
     text-decoration: none;
     top: 0;
     left: 0;
+    cursor: pointer;
+    opacity: 1;
+  }
 
-
-    :hover {
-      opacity: 0;
-    }
+  .content:hover .dev-button {
+    opacity: 0;
   }
 
   .content {
