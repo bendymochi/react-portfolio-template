@@ -8,6 +8,7 @@
   h1 {
     font-size: 3rem;
     line-height: 20px;
+    text-align: center;
     @include media(">=phone", "<lgphone") {
       font-size: 2.2rem;
     }

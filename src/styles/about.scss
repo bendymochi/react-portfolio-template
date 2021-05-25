@@ -6,11 +6,9 @@
   justify-content: space-between;
   @include media(">=phone", "<lgphone") {
     flex-direction: column-reverse;
-    font-size: 0.9rem;
   }
   @include media(">=lgphone", "<tablet") {
     flex-direction: column-reverse;
-    font-size: 1rem;
   }
   @include media(">=tablet", "<desktop") {
     flex-direction: column-reverse;
@@ -36,7 +34,7 @@
 
   .content {
     width: 50%;
-    line-height: 1.6;
+    line-height: 20px;
     @include media(">=phone", "<lgphone") {
       width: 100%;
     }
@@ -61,7 +59,14 @@
       }
     }
     p {
+      @include media(">=phone", "<lgphone") {
+        font-size: 16px;
+      }
+      @include media(">=lgphone", "<tablet") {
+        font-size: 16px;
+      }
       @include media(">=tablet", "<desktop") {
+        font-size: 18px;
         text-align: center;
       }
     }

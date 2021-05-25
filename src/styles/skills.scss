@@ -37,11 +37,13 @@
       align-items: center;
       text-align: center;
       padding: 10px;
+
       img {
         height: 3rem;
       }
       p {
         text-align: left;
+        align-items: left;
         font-size: 18px;
         @include media(">=phone", "<lgphone") {
           font-size: 1rem;
